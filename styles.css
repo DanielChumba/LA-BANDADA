@@ -1,0 +1,529 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+html {
+    font-size: 80%;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-family: 'Montserrat';
+    background-repeat: no-repeat;
+    background-size: cover 100%;
+    background-color: black;
+  }
+
+  @media only screen and (min-width: 768px){
+    .conteinergaleria{
+        grid-template-columns: repeat(3,f1);
+    }
+}
+@
+  
+/* -------------------------------------- index header */
+
+header{
+    display: flex;   
+    justify-content: center;
+    align-items: center;   
+}
+
+************************
+header a{    
+    text-decoration: none;
+    color: rgb(214, 212, 111);
+    text-align: center;  
+     
+}
+****************************
+header li{
+    padding: 0 0.5rem; 
+    list-style: none; 
+}
+****************************
+header nav {    
+    font-size: 1.2rem;
+}
+***************************
+header nav ul {
+    display: flex;
+}
+***************************
+a:hover{
+    color: #22a387;
+    background-color: rgb(107, 103, 103);
+    gap: 20%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.seccion-activa{
+    color: #22a387;
+}
+
+
+
+menu {
+    display: inline-block;
+}
+.padre{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    background-color: transparent;
+    display: block;
+    display: inline-block;
+    
+}
+.hijo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ 
+.margenlista{
+    padding-right: 7rem;
+
+}
+body {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    
+    color: rgb(214, 212, 111);    
+
+    background-repeat: no-repeat;        
+    background-size: 100%;
+    min-height: 100vh;
+
+}
+/* -------------------------------------- foother gral */
+
+
+.pieinicio{
+    background-color: transparent(121, 16, 16);
+}
+footer li{
+    padding: 5rem; 
+    list-style: none; 
+}
+footer nav {    
+    font-size: 1.2rem;
+}
+footer nav ul {
+    display: flex;
+}
+/* -------------------------------------- index gral */
+
+
+.contenedorimgcd{
+    display:inline-block;
+    display: flex; 
+    margin-left: auto;  
+    flex-direction: row;
+    
+}
+.eventos{
+    display: flex;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display:inline-block;
+}
+.bloque1{
+    padding: 30px;
+    margin: 50px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    flex-direction: row;
+}
+/* -------------------------------------- escrituras en gral */
+
+h1{
+    background-color:transparent;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    margin: 0;  
+    font-size: 3rem;  
+    color:rgb(207, 186, 186)
+    
+    
+}
+h2{
+    background-color: black;
+    font-family: 'Bungee Shade', cursive;
+    margin: 0;  
+    font-size: 2.0rem; 
+    color: rgb(207, 186, 186);
+}
+
+h3{
+    background-color: black;
+    font-family: 'Bungee Shade', cursive;
+    margin: 0;  
+    font-size: 2rem; 
+    color:rgb(207, 186, 186);
+    
+   }
+h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p{
+    background-color: black;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: rgb(85, 155, 15);
+    font-size: 150%;
+    }
+
+#tituloPrincipal
+    {   background-color:transparent; 
+        color:rgb(207, 186, 186);
+        font-size: 3rem;  
+       
+    }
+
+/* -------------------------------------- integrantes en gral */
+
+.transformarcabudo{
+
+    border-top: solid 3px green;
+    border-right: solid 3px green;
+    border-left: solid 3px green;
+    border-bottom: solid 3px green;       
+}
+.transformarcuchara {
+    border-top: solid 3px red;
+    border-right: solid 3px red;
+    border-left: solid 3px red;
+    border-bottom: solid 3px red;
+
+}
+.transformarciego {
+    border-top: solid 3px yellow;
+    border-right: solid 3px yellow;
+    border-left: solid 3px yellow;
+    border-bottom: solid 3px yellow;
+
+}
+.transformarnegro {
+    border-top: solid 3px blue;
+    border-right: solid 3px blue;
+    border-left: solid 3px blue;
+    border-bottom: solid 3px blue;
+
+}
+.transformarnegra {
+    border-top: solid 3px pink;
+    border-right: solid 3px pink;
+    border-left: solid 3px pink;
+    border-bottom: solid 3px pink;
+
+
+}
+.transformarbestia {
+    border-top: solid 3px brown;
+    border-right: solid 3px brown;
+    border-left: solid 3px brown;
+    border-bottom: solid 3px brown;
+
+}
+
+.transformarcabudo:hover{
+transition: all 1s;
+transform: scale(1,1.2)
+}
+.transformarciego:hover{
+    transition: all 1s;
+    transform: scale(1,1.2)
+    }
+.transformarcuchara:hover{
+    transition: all 1s;
+    transform: scale(1,1.2)
+  }
+.transformarnegro:hover{
+     transition: all 1s;
+     transform: scale(1,1.2)
+ }
+.transformarnegra:hover{
+     transition: all 1s;
+     transform: scale(1,1.2)
+ }
+.transformarbestia:hover{
+    transition: all 1s;
+     transform: scale(1,1.2)
+}
+.piedepagina{
+    background-color: black;
+}
+
+.transformar{
+    display: flex;
+    padding: 20px;
+    gap: 5rem;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+        line-height: 35px;
+        font-size: 20px;
+}
+
+.transformar2{
+    display: flex;
+    padding: 20px;
+    gap: 5rem;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+        line-height: 35px;
+        font-size: 20px;
+    
+}
+
+#aside{
+    display: inline-flexbox;
+}
+.main{
+    width: 70%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.subtituloprimerapag{
+    margin-left: auto;
+   font-size: 100%;
+
+}
+.libera{
+    font-size: 10vh;
+}
+
+/* -------------------------------------- historia en gral */
+
+.listahistoria{
+ 
+    margin-left: 5%;
+    list-style: none;
+    padding: 3%;
+    width: 100%;
+    width: 20%;
+    position: relative;
+    font-size: 15px;
+    
+    
+    }
+
+    .formacionhistoria{
+        box-shadow: 6px 20px 10px rgb(150, 92, 92)
+
+    }
+
+/* -------------------------------------- galeria en gral */
+
+ul ul {
+        position: absolute;
+        display: none;
+        align-items: center;
+}
+ul ul li{
+        display: block;
+}  
+ul li:hover ul {
+        display: block;
+        background-color: grey;
+        transform-box: 
+    }
+.grid{
+        display: grid; 
+        grid-template-columns: repeat(3,1fr);
+        gap: 5em;
+         } 
+.grid div{
+        background: transparent;
+        padding: 1em;
+        box-shadow: 6px 20px 10px orangered;
+            
+}    
+.grid div:hover{
+    border: 3px solid red 
+    
+
+} 
+
+.conteinergaleria{
+    display: grid;
+    grid-template-columns: 50% auto 50%;
+    grid-template-rows:repeat(6,50px);
+        grid-gap: 1rem;
+
+}
+
+
+
+
+.carrusel{
+    width: 50%;
+    height: 50%;
+    background: transparent;
+}
+
+.disco1{
+    margin-left: 15%;
+}
+.foot{
+    color: grey;
+    
+    font-size: 1.5rem;
+    
+  }
+.carousel-inner{
+    align-items: center;
+    margin-left: 25%;
+}
+.info-principal{
+    align-items: center;
+}
+/* -------------------------------------- error 404 en gral */
+h5{
+    margin: 0px;
+    font-size: 50px;
+}
+p{
+    font-size: 18px;
+}
+.mensaje-error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+.mensaje-error-contenedor{
+    text-align: center;
+    color: white;
+}
+.animacion{
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+.error{
+    background: #8e44ad;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes animar{
+    100% {
+      left: 0;
+      top: 0;
+    }
+    100% {
+      left: 5rem;
+      top: 0rem;
+      color: #9b59b6;
+    }
+    100% {
+      top: 5rem;
+      left: 5rem;
+      color: white;
+    }
+    60%{
+      top: 5rem;
+      left: 0;
+      color: #9b59b6;
+    }
+    100% {
+      top: 0;
+      left: 0;
+    }
+  }
+  .bounce{
+      animation-name:bounce ;
+
+}
+/* Estilos del formulario */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid rgb(112, 101, 101); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* boton enviar */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /*hover del boton enviar */
+  input[type=submit]:hover {
+    background-color: #96a74c;
+  }
+  
+  /* fondo del formulario */
+  .container {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+  }
+  /* -------------------------------------- galeria con modals */
+  .galeria2{
+      width: 90%;
+      margin: auto;
+      list-style: none;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .galeria li{
+      margin: 5px;
+  }
+  .galeria imgagen2{
+      width: 150px;
+      height: 100px;
+
+  }
+   /* -------------------------------------- Estilos del modals */
+
+   .modals{
+       display: none;
+
+   }
+   .modals:target{
+       display: block;
+       position: fixed;
+       background: ;
+   }
+
